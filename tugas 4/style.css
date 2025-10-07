@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    background: gray;
+    padding: 50PX;
+    text-align: center;
+    color: white;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    height: 75vh;
+}
+
+.left{
+    background: lightslategray;
+}
+ul{
+    list-style: none;
+    padding-top: 25px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+li a{
+
+    color: blue;
+    font-size: 25px;
+}
+
+.right{
+    background-color: bisque;
+    padding-top: 25px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h3{
+    font-size: 40px;
+}
+
+p{
+    font-size: 30px;
+}
+
+footer{
+    background: gray;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
